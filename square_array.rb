@@ -5,8 +5,10 @@ end
 
 
 def square_array(numbers)
-  counter = 1 
   numbers.each do |num|
+  puts "This is #{num}"
+  end
+end 
     
 
 
