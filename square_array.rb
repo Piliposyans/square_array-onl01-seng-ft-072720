@@ -13,7 +13,7 @@ end
 def square_array(numbers)
   count = [0]
   numbers.each do |number|
-    count << number * number
+    count << number times number
   end
 end 
 
