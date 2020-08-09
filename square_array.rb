@@ -11,9 +11,9 @@ def square_array(numbers)
 end 
     
 def square_array(numbers)
-  count = [0]
+  count = []
   numbers.each do |number|
-    count << number times number
+    count << number  number
   end
 end 
 
