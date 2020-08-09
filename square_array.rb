@@ -5,7 +5,7 @@ end
 
 
 def square_array(numbers)
-  new_numbers = []
+  counter = 1 
   numbers.each do |num|
     
 
