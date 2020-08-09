@@ -10,5 +10,10 @@ def square_array(numbers)
   end
 end 
     
-def square_array()
+def square_array(numbers)
+  count = [0]
+  numbers.each do |number|
+    count << number * number
+  end
+end 
 
